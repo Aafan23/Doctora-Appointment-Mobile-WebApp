@@ -29,12 +29,12 @@
         margin-top: 3vw;
         border-radius: 3vw;
     }
-    .sign-up:Hover{
+    .sign-up:active{
     background-color: white;
     color: #01bdf3;
     border: 1px solid #01bdf3;
 }
-.sign-in:Hover{
+.sign-in:active{
     background-color: #01bdf3;
     color: white;
 }
