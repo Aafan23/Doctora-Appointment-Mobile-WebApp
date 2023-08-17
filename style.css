@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
 }
 .Login-section1 {
     width: 50%;
@@ -277,6 +278,8 @@ word-spacing: 0.6vw;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+    right: 1vw;
         }
         .google{
             margin-top: 5vw;
