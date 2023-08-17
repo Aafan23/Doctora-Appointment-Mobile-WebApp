@@ -29,6 +29,15 @@
         margin-top: 3vw;
         border-radius: 3vw;
     }
+    .sign-up:Hover{
+    background-color: white;
+    color: #01bdf3;
+    border: 1px solid #01bdf3;
+}
+.sign-in:Hover{
+    background-color: #01bdf3;
+    color: white;
+}
     .Login-section1 h4{
         font-size: 3vw;
         font-weight: 100;
