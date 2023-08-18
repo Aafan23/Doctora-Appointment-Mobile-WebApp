@@ -75,6 +75,7 @@ height: 10vw;
        width: 88vw;
     }
     .frnt-pge-btn{
+        border:1px solid red;
         margin-top: 19vw;
     }
     .frnt-pge-btn a{
