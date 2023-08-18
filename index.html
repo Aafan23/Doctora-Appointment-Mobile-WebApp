@@ -9,6 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="frontpage.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
      <!--Links-->
@@ -19,13 +22,14 @@
 <body>
 <div class="container">
     <div class="main-page-slider">
-        <img class="mySlides" src="men1.png" >
-        <img class="mySlides" id="men-img" src="men2.png">
-        <img class="mySlides" id="men-img" src="men4.png">
+  
+        <img src="ayurvedicLogo.png" alt="">
       </div>
       <div class="page-txt">
-          <h3>Schedule your appointment with Doctor Now!</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsum omnis dicta odio vel libero.</p>
+        <h4>राष्ट्रीय प्राकृतिक चिकित्सा पूणे मान्यता प्राप्त</h4>
+          <h3>निसर्गोपचार-सायंटीफिक मसाज</h3>
+          <h4 class="shirwal">(शिरवळ)</h4>
+          <p>Schedule your appointment with Doctor Now!</p>
       </div>
   <div class="frnt-pge-btn">
       <a href="welcome.html">Next <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -34,25 +38,6 @@
   </div>
   
 </div>
-    
-
-
-
-    <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 4000); // Change image every 2 seconds
-        }
-        </script>
+  
 </body>
 </html>
