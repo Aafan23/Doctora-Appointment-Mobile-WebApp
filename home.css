@@ -3,17 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans JP', sans-serif;
+    
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
+   
+}
+.nav-box{
+    position: static;
+    z-index: 999;
 }
 .navbar{
     width: 100%;
     height: 8vw;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: fixed;
+    overflow: hidden;
+z-index: 999;
 }
 .profile-img{
     width: 30vw;
@@ -59,7 +68,7 @@ body {
 }
 .hero-section{
     width: 100%;
-    height: 53vw;
+    height: 55vw;
 }
 .hero-section img{
     padding: 3vw;
@@ -125,8 +134,76 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-
-
+.section2{
+    width: 100%;
+    height: 10vw;
+    padding: 0vw 1vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxsize{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+.boxsize img{
+    padding: 5vw;
+    padding-bottom: 1vw;
+width: 100%;
+height: 100%;
+}
+.boxsize p{
+ font-size: 2.3vw;
+}
+.section3{
+    margin-top: 3vw;
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.doctor-headline{
+    font-size: 3vw;
+    padding: 3vw 3vw;
+    color: #000000c7;
+}
+.section3-box{
+    width: 40vw;
+    height: 100%;
+    border-radius: 4vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.img-box{
+    width: 100%;
+    height: 25vw;
+    border-top-left-radius: 4vw;
+    border-top-right-radius: 4vw;
+    background-color: rgba(135, 207, 235, 0.365);
+    
+}
+.txt-box{
+    width: 100%;
+    height: 9.5vw;
+    border-bottom-left-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+    background-color: white;
+}
+.txt-box p{
+   font-size: 2vw;
+   padding-top: 2.5vw;
+   padding-left: 3vw;
+}
+.txt-box .txt-p{
+    font-size: 1vw;
+}
 /*--------------------MediaQuery Css--------------------------------------------------------*/
 
 @media (max-width:768px) {
@@ -174,5 +251,52 @@ img {vertical-align: middle;}
 font-size: 2.8vw;
 font-weight: lighter;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .section2{
+        width: 100%;
+        height: 20vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .boxsize{
+        width: 20%;
+        height: 100%;
+       border-radius: 3vw;
+    }
+    .section3{
+        width: 100%;
+        height: 46vw;
+        padding: 0vw 2.1vw;
+    }
+    .doctor-headline{
+      font-size: 5vw;
+      padding-top: 6vw;
+      padding-left: 5vw;
+    }
+    .section3-box{
+        width: 42vw;
+        height: 100%;
+        border-radius: 4vw;
+    }
+    .img-box{
+        width: 100%;
+        height: 30vw;
+        border-top-left-radius: 4vw;
+        border-top-right-radius: 4vw;
+    }
+    .txt-box{
+        width: 100%;
+        height: 15vw;
+    }
+    .txt-box p{
+        font-size: 3.7vw;
+     }
+     .txt-box .txt-p{
+        position: relative;
+        bottom: 5.5vw;
+        font-size: 2.7vw;
+        opacity: 0.8;
     }
 }
