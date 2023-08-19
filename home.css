@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 8vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.profile-img{
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-img img{
+    border-radius: 50%;
+    background-color: rgba(255, 160, 122, 0.281);
+    width: 6vw;
+    height: 6vw;
+}
+.profile-welcome-txt{
+    width: 20vw;
+    height: 100%;
+    padding: 1vw 0vw;
+}
+.profile-welcome-txt h4{
+    font-size: 1.5vw;
+}
+.nav-icons{
+    width: 15vw;
+    height: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.icon{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 2.5vw;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1vw;
+    color: #020272;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.wlcm{
+    color: orange;
+}
+
+
+
+/*--------------------MediaQuery Css--------------------------------------------------------*/
+
+@media (max-width:768px) {
+    .navbar{
+        width: 100%;
+        height: 22.5vw;
+    }
+    .profile-img{
+        padding-left: 3vw;
+        width: 53vw;
+        height: 100%;
+    }
+    .profile-img img{
+        
+        width: 12vw;
+        height: 12vw;
+    }
+    .profile-welcome-txt{
+        padding-top: 5.5vw;
+    width: 37vw;
+    height: 100%;
+    }
+    .profile-welcome-txt h4{
+       
+        padding-left: 4vw;
+        font-size: 3.5vw;
+        line-height: 1;
+        font-weight: 600;
+        
+    }
+    .nav-icons{
+        width: 38vw;
+        height: 100%;
+        margin-right: 0vw;
+    
+    }
+    .icon{
+        width: 9vw;
+    height: 9vw;
+    margin-left: 5.5vw;
+    padding: 2vw;
+  
+    }
+    .profile-welcome-txt .wlcm {
+font-size: 2.8vw;
+font-weight: lighter;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
