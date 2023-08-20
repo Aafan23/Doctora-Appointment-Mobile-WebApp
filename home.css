@@ -3,57 +3,65 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans JP', sans-serif;
-    
+
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
-   
+
 }
-.nav-box{
+
+.nav-box {
     position: static;
     z-index: 999;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 8vw;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     position: fixed;
     overflow: hidden;
-z-index: 999;
+    z-index: 999;
 }
-.profile-img{
+
+.profile-img {
     width: 30vw;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.profile-img img{
+
+.profile-img img {
     border-radius: 50%;
     background-color: rgba(255, 160, 122, 0.281);
     width: 6vw;
     height: 6vw;
 }
-.profile-welcome-txt{
+
+.profile-welcome-txt {
     width: 20vw;
     height: 100%;
     padding: 1vw 0vw;
 }
-.profile-welcome-txt h4{
+
+.profile-welcome-txt h4 {
     font-size: 1.5vw;
 }
-.nav-icons{
+
+.nav-icons {
     width: 15vw;
     height: 100%;
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 
 }
-.icon{
+
+.icon {
     width: 4vw;
     height: 4vw;
     margin-left: 2.5vw;
@@ -63,78 +71,91 @@ z-index: 999;
     color: #020272;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.wlcm{
+
+.wlcm {
     color: orange;
 }
-.hero-section{
+
+.hero-section {
     width: 100%;
     height: 55vw;
 }
-.hero-section img{
+
+.hero-section img {
     padding: 3vw;
     width: 100%;
     height: 100%;
     border-radius: 9vw;
 }
 
-.hero-section {display: none;}
-img {vertical-align: middle;}
+.hero-section {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 8px;
-  width: 8px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  position: relative;
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
     bottom: 8vw;
 }
 
 .active {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
 }
 
 @keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
-.section2{
+.section2 {
     width: 100%;
     height: 10vw;
     padding: 0vw 1vw;
@@ -142,7 +163,8 @@ img {vertical-align: middle;}
     justify-content: space-around;
     align-items: center;
 }
-.boxsize{
+
+.boxsize {
     width: 20%;
     height: 100%;
     display: flex;
@@ -151,18 +173,21 @@ img {vertical-align: middle;}
     flex-direction: column;
     border-radius: 2vw;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    
+
 }
-.boxsize img{
+
+.boxsize img {
     padding: 5vw;
     padding-bottom: 1vw;
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
-.boxsize p{
- font-size: 2.3vw;
+
+.boxsize p {
+    font-size: 2.3vw;
 }
-.section3{
+
+.section3 {
     margin-top: 3vw;
     width: 100%;
     height: 35vw;
@@ -170,133 +195,469 @@ height: 100%;
     justify-content: space-around;
     align-items: center;
 }
-.doctor-headline{
+
+.doctor-headline {
     font-size: 3vw;
     padding: 3vw 3vw;
     color: #000000c7;
 }
-.section3-box{
+
+.section3-box {
     width: 40vw;
     height: 100%;
     border-radius: 4vw;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.img-box{
+
+.img-box {
     width: 100%;
     height: 25vw;
     border-top-left-radius: 4vw;
     border-top-right-radius: 4vw;
     background-color: rgba(135, 207, 235, 0.365);
-    
+
 }
-.txt-box{
+
+.txt-box {
     width: 100%;
     height: 9.5vw;
     border-bottom-left-radius: 4vw;
     border-bottom-right-radius: 4vw;
     background-color: white;
 }
-.txt-box p{
-   font-size: 2vw;
-   padding-top: 2.5vw;
-   padding-left: 3vw;
+
+.txt-box p {
+    font-size: 2vw;
+    padding-top: 2.5vw;
+    padding-left: 3vw;
 }
-.txt-box .txt-p{
+
+.txt-box .txt-p {
     font-size: 1vw;
 }
+
+.pain-section {
+    width: 100%;
+    height: 50vw;
+    margin-top: 3vw;
+}
+
+.pain-box {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    padding: 0vw 3vw;
+    background-color: white;
+    margin-top: 4vw;
+}
+
+.neck-pain-box {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    padding: 0vw 3vw;
+    background-color: white;
+    margin-top: 4vw;
+    flex-direction: row-reverse;
+}
+.shoulder-pain-box {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    padding: 0vw 3vw;
+    background-color: white;
+    margin-top: 4vw;
+    flex-direction: row-reverse;
+}
+.ankle-pain-box {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    padding: 0vw 3vw;
+    background-color: white;
+    margin-top: 4vw;
+    flex-direction: row-reverse;
+}
+
+.pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    background-image: url('lower-back-pain.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.neck-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    background-image: url('neck-pain.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.shoulder-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.knee-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    background-image: url('knee\ pain.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.shoulder-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    background-image: url('shoulder-pain.jpg.crdownload');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.hand-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    background-image: url('handpain.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.ankle-pain-img {
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.399);
+    height: 100%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    background-image: url('anklepain.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.pain-txt {
+    width: 70vw;
+    height: 100%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.neck-pain-txt {
+    width: 70vw;
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.neck-pain-txt h3 {
+    padding: 4vw;
+    font-size: 3vw;
+    padding-bottom: 0;
+}
+
+.neck-pain-txt p {
+    font-size: 1.5vw;
+    padding: 0vw 4vw;
+    color: gray;
+    opacity: 0.8;
+}
+.shoulder-pain-txt {
+    width: 70vw;
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.shoulder-pain-txt h3 {
+    padding: 4vw;
+    font-size: 3vw;
+    padding-bottom: 0;
+}
+
+.shoulder-pain-txt p {
+    font-size: 1.5vw;
+    padding: 0vw 4vw;
+    color: gray;
+    opacity: 0.8;
+}
+.ankle-pain-txt {
+    width: 70vw;
+    height: 100%;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.ankle-pain-txt h3 {
+    padding: 4vw;
+    font-size: 3vw;
+    padding-bottom: 0;
+}
+
+.ankle-pain-txt p {
+    font-size: 1.5vw;
+    padding: 0vw 4vw;
+    color: gray;
+    opacity: 0.8;
+}
+
+.pain-txt h3 {
+    padding: 4vw;
+    font-size: 3vw;
+    padding-bottom: 0;
+}
+
+.pain-txt p {
+    font-size: 1.5vw;
+    padding: 0vw 4vw;
+    color: gray;
+    opacity: 0.8;
+}
+.section4{
+    width: 100%;
+    height: 20vw;
+}
+
 /*--------------------MediaQuery Css--------------------------------------------------------*/
 
 @media (max-width:768px) {
-    .navbar{
+    .navbar {
         width: 100%;
         height: 22.5vw;
     }
-    .profile-img{
+
+    .profile-img {
         padding-left: 3vw;
         width: 53vw;
         height: 100%;
     }
-    .profile-img img{
-        
+
+    .profile-img img {
+
         width: 12vw;
         height: 12vw;
     }
-    .profile-welcome-txt{
+
+    .profile-welcome-txt {
         padding-top: 5.5vw;
-    width: 37vw;
-    height: 100%;
+        width: 37vw;
+        height: 100%;
     }
-    .profile-welcome-txt h4{
-       
+
+    .profile-welcome-txt h4 {
+
         padding-left: 4vw;
         font-size: 3.5vw;
         line-height: 1;
         font-weight: 600;
-        
+
     }
-    .nav-icons{
+
+    .nav-icons {
         width: 38vw;
         height: 100%;
         margin-right: 0vw;
-    
-    }
-    .icon{
-        width: 9vw;
-    height: 9vw;
-    margin-left: 5.5vw;
-    padding: 2vw;
-  
-    }
-    .profile-welcome-txt .wlcm {
-font-size: 2.8vw;
-font-weight: lighter;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+
     }
 
-    .section2{
+    .icon {
+        width: 9vw;
+        height: 9vw;
+        margin-left: 5.5vw;
+        padding: 2vw;
+
+    }
+
+    .profile-welcome-txt .wlcm {
+        font-size: 2.8vw;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .section2 {
         width: 100%;
         height: 20vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .boxsize{
+
+    .boxsize {
         width: 20%;
         height: 100%;
-       border-radius: 3vw;
+        border-radius: 3vw;
     }
-    .section3{
+
+    .section3 {
         width: 100%;
         height: 46vw;
         padding: 0vw 2.1vw;
     }
-    .doctor-headline{
-      font-size: 5vw;
-      padding-top: 6vw;
-      padding-left: 5vw;
+
+    .doctor-headline {
+        font-size: 5vw;
+        padding-top: 6vw;
+        padding-left: 5vw;
     }
-    .section3-box{
+
+    .section3-box {
         width: 42vw;
         height: 100%;
         border-radius: 4vw;
     }
-    .img-box{
+
+    .img-box {
         width: 100%;
         height: 30vw;
         border-top-left-radius: 4vw;
         border-top-right-radius: 4vw;
     }
-    .txt-box{
+
+    .txt-box {
         width: 100%;
         height: 15vw;
     }
-    .txt-box p{
+
+    .txt-box p {
         font-size: 3.7vw;
-     }
-     .txt-box .txt-p{
+    }
+
+    .txt-box .txt-p {
         position: relative;
         bottom: 5.5vw;
         font-size: 2.7vw;
         opacity: 0.8;
+    }
+
+    .pain-section {
+        width: 100%;
+        height: 80vw;
+        margin-top: 6vw;
+    }
+
+    .pain-box {
+        width: 100%;
+        height: 25vw;
+    }
+
+    .neck-pain-box {
+        width: 100%;
+        height: 25vw;
+    }
+    .shoulder-pain-box {
+        width: 100%;
+        height: 25vw;
+    }
+    .ankle-pain-box {
+        width: 100%;
+        height: 25vw;
+    }
+    .pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .neck-pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .knee-pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .shoulder-pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .hand-pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .ankle-pain-img {
+        width: 30vw;
+        height: 100%;
+    }
+
+
+
+    .pain-txt h3 {
+        font-size: 4vw;
+    }
+
+    .pain-txt p {
+        font-size: 2vw;
+    }
+
+    .neck-pain-txt h3 {
+        font-size: 4vw;
+    }
+
+    .neck-pain-txt p {
+        font-size: 2vw;
+    }
+    .shoulder-pain-txt h3 {
+        font-size: 4vw;
+    }
+
+    .shoulder-pain-txt p {
+        font-size: 2vw;
+    }
+    .ankle-pain-txt h3 {
+        font-size: 4vw;
+    }
+
+    .ankle-pain-txt p {
+        font-size: 2vw;
     }
 }
