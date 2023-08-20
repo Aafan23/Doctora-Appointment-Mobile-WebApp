@@ -287,6 +287,18 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('lower-back-pain.jpg');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
+}
+@keyframes colorCycle {
+    0% {
+        filter: grayscale(100%);
+    }
+    50% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
 }
 
 .neck-pain-img {
@@ -297,6 +309,7 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('neck-pain.jpg');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 .shoulder-pain-img {
     width: 30vw;
@@ -305,6 +318,7 @@ img {
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 
 .knee-pain-img {
@@ -315,6 +329,7 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('knee\ pain.jpg');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 
 .shoulder-pain-img {
@@ -325,6 +340,7 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('shoulder-pain.jpg.crdownload');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 
 .hand-pain-img {
@@ -335,6 +351,7 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('handpain.jpg');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 
 .ankle-pain-img {
@@ -345,6 +362,7 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('anklepain.jpg');
     background-size: cover;
+    animation: colorCycle 1.5s infinite;
 }
 
 
