@@ -281,7 +281,6 @@ img {
 
 .pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-left-radius: 3vw;
     border-bottom-left-radius: 3vw;
@@ -303,7 +302,6 @@ img {
 
 .neck-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
@@ -313,7 +311,6 @@ img {
 }
 .shoulder-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
@@ -323,7 +320,6 @@ img {
 
 .knee-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-left-radius: 3vw;
     border-bottom-left-radius: 3vw;
@@ -334,7 +330,6 @@ img {
 
 .shoulder-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
@@ -345,7 +340,6 @@ img {
 
 .hand-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-left-radius: 3vw;
     border-bottom-left-radius: 3vw;
@@ -356,7 +350,6 @@ img {
 
 .ankle-pain-img {
     width: 30vw;
-    border-right: 1px solid rgba(128, 128, 128, 0.399);
     height: 100%;
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
@@ -439,7 +432,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border: 1px solid rgba(128, 128, 128, 0.311);
 }
 
