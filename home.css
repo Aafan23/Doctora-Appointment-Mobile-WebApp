@@ -287,7 +287,6 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('lower-back-pain.jpg');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .neck-pain-img {
@@ -298,7 +297,6 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('neck-pain.jpg');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .shoulder-pain-img {
     width: 30vw;
@@ -307,7 +305,6 @@ img {
     border-top-right-radius: 3vw;
     border-bottom-right-radius: 3vw;
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .knee-pain-img {
@@ -318,7 +315,6 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('knee\ pain.jpg');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .shoulder-pain-img {
@@ -329,7 +325,6 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('shoulder-pain.jpg.crdownload');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .hand-pain-img {
@@ -340,7 +335,6 @@ img {
     border-bottom-left-radius: 3vw;
     background-image: url('handpain.jpg');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .ankle-pain-img {
@@ -351,7 +345,6 @@ img {
     border-bottom-right-radius: 3vw;
     background-image: url('anklepain.jpg');
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 
@@ -365,7 +358,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border: 1px solid rgba(128, 128, 128, 0.311);
 }
 
@@ -379,7 +371,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border: 1px solid rgba(128, 128, 128, 0.311);
 }
 
@@ -405,7 +396,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border: 1px solid rgba(128, 128, 128, 0.311);
 }
 
@@ -659,5 +649,8 @@ img {
 
     .ankle-pain-txt p {
         font-size: 2vw;
+    }
+    .pain-section {
+        padding: 0vw 2.8vw;
     }
 }
