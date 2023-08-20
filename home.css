@@ -11,6 +11,7 @@ body {
     height: 100%;
     width: 100%;
 
+
 }
 .nav{
     width: 100%;
@@ -471,7 +472,7 @@ img {
 }
 .section4{
     width: 100%;
-    height: 40vw;
+    height: 60vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -540,6 +541,20 @@ font-size: 2vw;
 }
 .sec4-heading h3{
    font-size: 2vw;
+}
+.loc-map{
+    width: 100%;
+    height: 17vw;
+}
+.end-footer{
+    width: 100%;
+    height: 10vw;
+    border: 1px solid red;
+    display: none;
+}
+.footer-above{
+    width: 100%;
+    height: 20vw;
 }
 
 /*--------------------MediaQuery Css--------------------------------------------------------*/
@@ -664,7 +679,7 @@ font-size: 2vw;
 
     .pain-section {
         width: 100%;
-        height: 80vw;
+        height: auto;
         margin-top: 6vw;
     }
 
@@ -752,20 +767,20 @@ font-size: 2vw;
     .section4{
         padding: 3vw;
         width: 100%;
-        height: 100vw;
+        height: 180vw;
   flex-direction: column;
   margin-top: 6vw;
     }
     .clinic-location{
         width: 100%;
-        height: 40%;
+        height: 60%;
         /*border: 1px solid rgba(172, 172, 172, 0.299);*/
         
     }
     .clinic-time{
         margin-top: 2.5vw;
         width: 100%;
-        height: 55%;
+        height: 30%;
 
     }
     .loc-logo-txt{
@@ -803,7 +818,7 @@ font-size: 2vw;
         padding: 0vw 4vw;
         margin-left: 12vw;
         width: 76vw;
-        height: 20vw;
+        height: 11vw;
         position: relative;
         bottom: 3vw;
 
@@ -824,15 +839,63 @@ font-size: 2vw;
         height: 6vw;
     }
     .sec4-heading h3{
-       font-size: 4vw;
+       font-size: 5vw;
        text-align: center;
        text-decoration: dashed;
+       opacity: 0.9;
     }
 
+    .loc-map{
+        width: 100%;
+    height: 71vw;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    }
 
+    iframe{
+        padding: 2vw;
+        width: 100%;
+        height: 100%;
+      border-radius: 7vw;
+    }
 
-    
-}
+    .end-footer{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-top-left-radius: 4vw;
+      border-top-right-radius: 4vw;
+        width: 95%;
+        height: 20vw;
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgba(128, 128, 128, 0.444);
+        position: fixed;
+        bottom: 0;
+        z-index: 1000;
+        background-color: white;
+    }
+    .footer-box{
+        
+        width: 22%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 4vw;
+    }
+    .footer-box svg{ 
+      opacity: 0.85;
+        width: 50%;
+        height: 45%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+ 
 
 
 
