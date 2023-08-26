@@ -11,7 +11,9 @@ body {
     height: 100%;
     width: 100%;
 
-
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 .nav{
     width: 100%;
@@ -559,6 +561,7 @@ font-size: 2vw;
 /*--------------------MediaQuery Css--------------------------------------------------------*/
 
 @media (max-width:768px) {
+
     .slideshow-container {
         margin-top: 25vw;
       
@@ -566,6 +569,7 @@ font-size: 2vw;
     .navbar {
         width: 100%;
         height: 22.5vw;
+        
     }
 
     .profile-img {
@@ -628,8 +632,27 @@ font-size: 2vw;
         width: 20%;
         height: 100%;
         border-radius: 3vw;
+       
+    }
+    #box1{
+        background-color: #f7ecee4f;
+    }
+    #box2{
+        background-color: #ebf6fb70;
+    }
+    #box3{
+        background-color: #f9f6ec75;
+    }
+    #box4{
+        background-color: #ecf8f570;
     }
 
+    .boxsize img {
+        
+        width: 100%;
+        height: 100%;
+    }
+  
     .section3 {
         width: 100%;
         height: 46vw;
@@ -860,28 +883,39 @@ font-size: 2vw;
 
     .end-footer{
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      border-top-left-radius: 4vw;
-      border-top-right-radius: 4vw;
+      border-radius: 5vw;
         width: 95%;
         height: 18vw;
         display: block;
         display: flex;
         justify-content: space-around;
         align-items: center;
+       
         position: fixed;
         bottom: 0;
         z-index: 1000;
         background-color: white;
+        bottom: 3.5vw;
     }
     .footer-box{
-        
+flex-direction: column;        
         width: 22%;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
-        padding-top: 4vw;
+        align-items: center;
+        padding: 2vw 0vw;
+        padding-top: 3vw;
     }
+    .footer-box a{
+  text-decoration: none;
+  color: black;
+  opacity: 0.85;
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 1vw;
+
+            }
     .footer-box svg{ 
       opacity: 0.85;
         width: 50%;
@@ -891,6 +925,7 @@ font-size: 2vw;
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
     }
  
