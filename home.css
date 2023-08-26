@@ -648,7 +648,8 @@ font-size: 2vw;
     }
 
     .boxsize img {
-        
+    padding: 5vw;
+    padding-bottom: 1vw;
         width: 100%;
         height: 100%;
     }
