@@ -26,7 +26,7 @@ body::-webkit-scrollbar{
 .navbar {
     width: 100%;
     height: 8vw;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -185,8 +185,8 @@ img {
 .boxsize img {
     padding: 5vw;
     padding-bottom: 1vw;
-    width: 100%;
-    height: 100%;
+    width: 16vw;
+    height: 15vw;
 }
 
 .boxsize p {
@@ -310,10 +310,11 @@ img {
 }
 @keyframes notification {
     0% {
-        filter: grayscale(30%);
+        filter: grayscale(40%);
     }
     50% {
         filter: grayscale(40%);
+        background-color: white;
 
 
     }
@@ -572,8 +573,15 @@ font-size: 2vw;
 }
 .footer-above{
     width: 100%;
-    height: 20vw;
+    height: 30vw;
 }
+
+/*=============== GOOGLE FONTS ===============*/
+
+
+
+
+
 
 /*--------------------MediaQuery Css--------------------------------------------------------*/
 
@@ -665,10 +673,8 @@ font-size: 2vw;
     }
 
     .boxsize img {
-        padding: 5vw;
-    padding-bottom: 1vw;
-        width: 100%;
-        height: 100%;
+    width: 18.5vw;
+    height: 14vw;
     }
   
     .section3 {
@@ -962,10 +968,83 @@ flex-direction: column;
         justify-content: center;
     }
     .notification-count p{
+        padding-top: 0.2vw;
        color: white;
        font-size: 2.2vw;
        text-align: center;
+       font-weight: 700;
     }
+.FAQ-section{
+    height: auto;
+    width: 100%;
+
+}
+.FAQ-heading h1{
+    font-size: 4.7vw;
+    text-align: center;
+    padding: 5vw;
+}
+.question-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question-box{
+    margin-top: 2vw;
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 3.5vw;
+    border: 1px solid lightgray;
+    border-radius: 3vw;
+
+ 
+   
+}
+.question-box h3{
+    font-size: 3.3vw;
+    padding-left: 4vw;
+    height: 100%;
+    width: 100%;
+    padding: 3vw 1vw;
+    opacity: 0.6;
+}
+.question-box h3:active{
+    color: blue;
+   
+}
+.heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.heading svg{
+    width: 4.5vw;
+    height: 4.5vw;
+    opacity: 0.6;
+}
+.question-box p{
+    font-size: 2.5vw;
+    padding-left: 3vw;
+    width: 100%;
+    height: auto;
+   display: none;
+}
+
+
+
+
+
     }
  
 
