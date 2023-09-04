@@ -660,16 +660,19 @@ font-size: 2vw;
        
     }
     #box1{
-        background-color: #f7ecee;
+        background-color: #ebf6fb;
+        
     }
     #box2{
-        background-color: #ebf6fb;
+        background-color: #f9f6ec;
+      
     }
     #box3{
-        background-color: #f9f6ec;
+        background-color: #ecf8f5;
+       
     }
     #box4{
-        background-color: #ecf8f5;
+        background-color: #f7ecee;
     }
 
     .boxsize img {
