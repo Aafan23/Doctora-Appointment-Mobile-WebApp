@@ -178,7 +178,7 @@ img {
     align-items: center;
     flex-direction: column;
     border-radius: 2vw;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #c5c0c030;
 
 }
 
@@ -212,7 +212,7 @@ img {
     width: 40vw;
     height: 100%;
     border-radius: 4vw;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #8080804a;
 }
 
 .img-box {
@@ -676,8 +676,8 @@ font-size: 2vw;
     }
 
     .boxsize img {
-        width: 21vw;
-            height: 16vw;
+        width: 21.5vw;
+    height: 17vw;
     }
   
     .section3 {
