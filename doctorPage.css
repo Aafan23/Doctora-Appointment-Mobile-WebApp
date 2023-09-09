@@ -11,18 +11,21 @@ body {
     height: 100%;
     width: 100%;
 }
-
+.hero{
+    width: 100%;
+    height: 100%;
+}
 section {
     width: 100%;
     height: 100%;
-    background-color: #f1eeeed6;
+    
 }
 
 @media (max-width:768px) {
     section {
         width: 100%;
         height: 100%;
-
+        background-color: #f1eeeed6;
 
     }
 
@@ -94,10 +97,11 @@ section {
     }
 
     .hero {
-        height: 115%;
+        height: 90.5%;
         width: 100%;
         padding: 5vw;
-        background-color: #f1eeeed6;
+       
+    
     }
 
     .doctorbox {
@@ -107,7 +111,8 @@ section {
         display: flex;
         background-color: whitesmoke;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-        margin-top: 6vw;
+       
+        
 
 
     }
@@ -123,10 +128,12 @@ section {
     }
 
     .section2-content {
+        
         width: 100%;
         height: 25vw;
-        margin-top: 3vw;
+     
         padding: 2vw;
+        padding-top: 7vw;   
     }
 
     .section2-content h2 {
@@ -144,7 +151,7 @@ section {
     }
 
     .doctorImage img {
-        margin-top: 2vw;
+     
         padding: 2vw;
         width: 35vw;
         height: 100%;
@@ -166,7 +173,7 @@ section {
         padding-top: 14vw;
     }
     .about{
-        margin-top: 3vw;
+        padding-top: 7vw; 
         width: 100%;
         height: 50vw;
         
@@ -188,7 +195,7 @@ section {
        
        }
        .aboutrating-box{
-        margin-top: 13vw;
+       margin-top: 15vw;
         width: 100%;
         height: 20vw;
 
@@ -232,7 +239,8 @@ section {
     
        }
        .button{
-        margin-top: 7vw;
+    position: relative;
+       top: 7vw;
         width: 100%;
         height: 25vw;
         padding: 2vw;
